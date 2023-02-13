@@ -70,18 +70,18 @@ Dans un nouveau fichier JS, vous ferais des recherches via l'API OMDB
 Aucun script ou attribut JavaScript dois être présent dans le fichier HTML !
 
 - Tâche à accomplir :
-  - [ x ] Créer un formulaire de Recherche
-    - [ x ] Une zone de saisie pour le titre
-    - [ x ] Une zone de saisie pour l'année
-    - [ x ] Un sélecteur pour le type (film, épisode, séries, saison)
-  - [ x ] Faire la recherche via OMDB avec les données de l'utilisateur 
-  - [ x ] Afficher les différents résultats avec :
-    - [ x ] Le poster du film (si disponible)
+  - [x] Créer un formulaire de Recherche
+    - [x] Une zone de saisie pour le titre
+    - [x] Une zone de saisie pour l'année
+    - [x] Un sélecteur pour le type (film, épisode, séries, saison)
+  - [x] Faire la recherche via OMDB avec les données de l'utilisateur 
+  - [x] Afficher les différents résultats avec :
+    - [x] Le poster du film (si disponible)
       - Sinon afficher une image importé
-    - [ x ] Le titre film
-    - [ x ] L'année du film
-  - [ x ] Affiche une pagination si besoin
-    - [ x ] Chaque page renverra la suite des résultats attendu 
+    - [x] Le titre film
+    - [x] L'année du film
+  - [x] Affiche une pagination si besoin
+    - [x] Chaque page renverra la suite des résultats attendu 
 
 
 ### Les bibliothèques
