@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Médiatèque</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/page2.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="assets/js/page2.js"></script>
+</head>
+<body class="text-center">
+    <header>
+        <h1 class="display-4">Utilisation de OmdB</h1>
+    </header>
+    <main>
+
+        <section class="text-center">
+            <label class="d-block fs-5">Titre :<input class="d-block mx-auto w-25 text-center form-control" type="text" id="title"></label>
+            <label class="d-block fs-5">Année :<input class="d-block mx-auto w-25 text-center form-control" type="number" id="year"></label>
+            <label class="d-block fs-5">
+                Type :
+                <select class="d-block mx-auto w-25 text-center form-select" id="type">   
+                    <option value="movie">Film</option>
+                    <option value="game">Jeux vidéos</option>
+                    <option value="series">Séries</option>
+                </select>
+            </label>
+            <button id="search" class="mt-3 btn btn-warning">Recherche</button>
+        </section>
+
+        <section id="affichage" class="container text-center mt-3" >
+        </section>
+        <button id="prev-page"class="btn btn-outline-dark my-3">page précédente</button>
+        <button id="next-page"class="btn btn-outline-dark my-3">page suivante</button>
+    </main>
+</body>
+</html> 
